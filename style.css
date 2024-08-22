@@ -71,7 +71,7 @@ dialog::backdrop {
   bottom: 0;
   left: calc(50vw - (182px * var(--gui-scale) / 2));
   right: calc(50vw - (182px * var(--gui-scale) / 2));
-  background-image: url("images/hotbar.png");
+  background-image: url("textures/gui/hotbar.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -118,7 +118,7 @@ dialog::backdrop {
   bottom: 0;
   width: calc(24px * var(--gui-scale));
   height: calc(24px * var(--gui-scale));
-  background-image: url("images/hotbar_selected.png");
+  background-image: url("textures/gui/hotbar_selected.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: calc(24px * var(--gui-scale));
@@ -269,16 +269,16 @@ dialog::backdrop {
   background-position: top;
 }
 
-.block.grass .face {
+.block.cutout .face {
   display: none;
 }
 
-.block.grass .face.front {
+.block.cutout .face.front {
   display: block;
   transform: rotateY(45deg);
 }
 
-.block.grass .face.right {
+.block.cutout .face.right {
   display: block;
   transform: rotateY(315deg);
 }

@@ -4,47 +4,6 @@ function getBlocks() {
   return document.querySelectorAll("#world .block");
 }
 
-let blockTypes = {
-  grass_block: {
-    name: "Grass block",
-  },
-  dirt: {
-    name: "Dirt",
-  },
-  grass: {
-    name: "Grass",
-    shape: "cutout",
-  },
-  oak_log: {
-    name: "Oak log",
-  },
-  oak_leaves: {
-    name: "Oak leaves",
-  },
-  oak_planks: {
-    name: "Oak planks",
-  },
-  stone: {
-    name: "Stone",
-  },
-  cobblestone: {
-    name: "Cobblestone",
-  },
-  snow: {
-    name: "Snow",
-  },
-  copper: {
-    name: "Copper",
-  },
-  glass: {
-    name: "Glass",
-  },
-  oak_slab: {
-    name: "Oak slab",
-    shape: "slab",
-  },
-};
-
 let defaultBlock = {
   id: "unknown",
   name: "block",
